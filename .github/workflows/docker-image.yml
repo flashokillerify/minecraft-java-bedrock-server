@@ -14,5 +14,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Run Sh file
-      run: . setup.sh
+    - name: Run Some Sussy Files
+      run: docker build -t tandrup/minecraft-java-bedrock-server . && docker run -it --rm tandrup/minecraft-java-bedrock-server
